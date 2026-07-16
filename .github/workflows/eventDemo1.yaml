@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - 'event-*'
+      - 'event_*'
 jobs:
   deploy:
     runs-on: ubuntu-latest
