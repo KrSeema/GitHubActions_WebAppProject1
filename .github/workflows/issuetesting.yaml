@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Print issue details
-        run: echo "Issue number ${{ github.event.issue.number }} was triggered."
+        run: echo "Issue number ${{ github.event.issue.number }} was triggered...."
