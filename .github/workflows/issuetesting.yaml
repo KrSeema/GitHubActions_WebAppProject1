@@ -1,0 +1,12 @@
+name: Issue Labeler
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  coordinate-issue:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print issue details
+        run: echo "Issue number ${{ github.event.issue.number }} was triggered."
