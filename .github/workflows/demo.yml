@@ -3,7 +3,9 @@ on:
   push:
     branches:
       - main
-working-directory: ./Project_JobArtifacts&Output
+defaults:
+  run:
+    working-directory: ./Project_JobArtifacts&Output
 jobs:
   test:
     runs-on: ubuntu-latest
